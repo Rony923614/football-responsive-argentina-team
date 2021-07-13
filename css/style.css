@@ -1,0 +1,183 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*-------------- Banner Area Starat------------  */
+
+.banner-area {
+    background-color: #2d25a0;
+    width: 1083px;
+    display: flex;
+    padding-left: 156px;
+    padding-right: 102px;
+    padding-top: 60px;
+    margin-bottom: 70px;
+
+}
+
+.banner-text {
+    width: 50%;
+    margin-right: 102px;
+}
+
+.banner-text h1 {
+    color: #FFFFF;
+    font-size: 64px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+}
+
+.button-area {
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    margin-bottom: 167px;
+    transition: 0.2s;
+
+}
+
+.button-area:hover {
+    color: #255784;
+    background: #3dbafd;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+
+}
+
+.button-area a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFF;
+}
+
+.button-area .fas {
+    color: #fff;
+}
+
+.banner-picture {
+    width: 50%;
+}
+
+.banner-picture:hover {
+    transform: rotate(10deg);
+}
+
+.banner-picture img {
+    width: 100%;
+}
+
+/* ---------------blog Area Start --------------- */
+.Players {
+    margin-left: 110px;
+    background: #FFFFFF;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    text-align: center;
+
+
+}
+
+.blogs {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width: 330px;
+    height: 510px;
+    padding: 15px;
+
+}
+
+.blogs h2 {
+    font-size: 28px;
+    text-align: left;
+
+}
+
+.blogs p {
+    font-size: 16px;
+    width: 300px;
+    text-align: left;
+
+}
+
+.blogs img {
+    width: 300px;
+    height: 256px;
+    text-align: center;
+}
+
+
+
+/* FIFA World cup Start  css */
+
+
+
+.world-cup {
+    display: flex;
+    margin-top: 165px;
+}
+
+.text-area {
+    width: 50%;
+    Width: 466px;
+    margin-right: 70px;
+}
+
+.text-area h1 {
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.text-area p {
+    font-size: 16px;
+}
+
+.images-area {
+    width: 50%;
+}
+
+.images-area img {
+    width: 80%;
+}
+
+
+/* Footer Aera Start css  */
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 483.87px;
+}
+
+.socials {
+    margin-bottom: 20px;
+}
+
+.socials .fab {
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #969BAB;
+    font-size: 18px;
+
+}
+
+.socials .fab:hover {
+    color: aqua;
+}
+
+.footer-copyright {
+    font-size: 18px;
+}
