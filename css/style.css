@@ -143,6 +143,66 @@ body {
     width: 80%;
 }
 
+/* <!-- Extra  Feture Add  website  --> */
+
+.Mother-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.Father-box h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.box {
+
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: #f8e800;
+    font-weight: bold;
+
+}
+
+.box:hover {
+    transform: rotate(30deg);
+    background: rgba(0, 0, 0, 0.349);
+}
+
+.box-1 {
+    background-image: url(../images/bg/bg-1.jfif);
+}
+
+.box-2 {
+    background-image: url(../images/bg/bg-2.jpg);
+}
+
+.box-3 {
+    background-image: url(../images/bg/bg-3.jpg);
+}
+
+.box-4 {
+    background-image: url(../images/bg/bg-4.jpg);
+}
+
+.box-5 {
+    background-image: url(../images/bg/bg-5.jfif);
+}
+
+.box-6 {
+    background-image: url(../images/bg/bg-6.jfif);
+}
+
+
+
+
+
+
 
 /* Footer Aera Start css  */
 
