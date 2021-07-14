@@ -159,6 +159,53 @@ body {
     width: 100%;
 }
 
+/* <!----------------- Footer Area Start ------------------------------ --> */
+
+/* Footer Aera Start css  */
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    padding: 60px 0 70px 0;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    max-width: 483.87px;
+}
+
+.socials {
+    margin-bottom: 20px;
+}
+
+.socials .fab {
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #969BAB;
+    font-size: 18px;
+}
+
+.socials .fab:hover {
+    color: aqua;
+}
+
+.footer-copyright {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+
+
 /*------------ Responsive Disign  Start ---------------- */
 
 /*---------- For Mobail Devices----------- */
@@ -213,10 +260,20 @@ body {
     .text-area p {
         font-size: 16px;
     }
-
-
-
 }
+
+/* Footer Area Responsive  */
+@media only screen and (max-width: 480px) {
+    .footer-logo img {
+        max-width: 300px;
+    }
+}
+
+
+
+
+
+
 
 /* ------------------Tablet Mode  Responsive ----------- */
 /* ----------------------------- --------------------------------------------  */
@@ -256,5 +313,19 @@ body {
 
     .text-area h1 {
         font-size: 40px;
+    }
+}
+
+/* Footer Area Responsive  */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .footer-logo img {
+        max-width: 350px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 996px) {
+    .footer-logo img {
+        max-width: 400px;
     }
 }
