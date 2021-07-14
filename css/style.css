@@ -119,7 +119,45 @@ body {
     height: 256px;
 }
 
+/*---- world-cup Section start here  --- */
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.world-cup {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 28px;
+    font-family: 'Poppins', sans-serif;
+    padding: 60px 0 70px 0;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.text-area h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.text-area p {
+    font-size: 16px;
+}
+
+.images-area {
+    display: flex;
+    align-items: center;
+}
+
+.images-area img {
+    width: 100%;
+}
 
 /*------------ Responsive Disign  Start ---------------- */
 
@@ -161,7 +199,29 @@ body {
     }
 }
 
+/* World Cup  */
+@media only screen and (max-width: 480px) {
+    .world-cup {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 28px;
+    }
 
+    .text-area h1 {
+        font-size: 30px;
+    }
+
+    .text-area p {
+        font-size: 16px;
+    }
+
+
+
+}
+
+/* ------------------Tablet Mode  Responsive ----------- */
+/* ----------------------------- --------------------------------------------  */
+
+/* Player Section  */
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     .players-cards {
@@ -172,5 +232,29 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 996px) {
     .players-cards {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* World Cup  Responsive */
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .world-cup {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 28px;
+    }
+
+    .text-area h1 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 996px) {
+    .world-cup {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 28px;
+    }
+
+    .text-area h1 {
+        font-size: 40px;
     }
 }
