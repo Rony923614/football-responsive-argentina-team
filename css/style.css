@@ -205,6 +205,33 @@ body {
     width: 100%;
 }
 
+/* <!----------------- More Video All Responsive Extra  ----------------> */
+
+.more-video h1 {
+    font-size: 45px;
+    text-align: center;
+    color: chartreuse;
+}
+
+.more-video h1:hover {
+    color: cyan;
+}
+
+.video-fifa {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+}
+
+.video-area {
+    width: 100%;
+}
+
+
+
+
 /* <!----------------- Footer Area Start  css------------------------------ --> */
 
 
@@ -254,6 +281,8 @@ body {
 /*------------ Responsive Disign  Start ---------------- */
 
 /*---------- For Mobail Devices----------- */
+
+
 /* Header Responsive  */
 
 @media only screen and (max-width: 480px) {
@@ -306,7 +335,7 @@ body {
     }
 }
 
-/*------------------ World Cup------------------------  */
+/*------------------ World Cup Seation------------------------  */
 @media only screen and (max-width: 480px) {
     .world-cup {
         grid-template-columns: repeat(1, 1fr);
@@ -321,6 +350,28 @@ body {
         font-size: 16px;
     }
 }
+
+/* <!----------------- More Video All Responsive Extra  ----------------> */
+
+@media only screen and (max-width: 480px) {
+
+    .video-fifa {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+
+    }
+
+    .more-video h1 {
+        font-size: 25px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
+
 
 /* ----------------Footer Area Responsive--------------------  */
 @media only screen and (max-width: 480px) {
